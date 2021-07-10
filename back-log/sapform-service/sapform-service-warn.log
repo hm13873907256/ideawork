@@ -1,0 +1,21 @@
+2019-07-31 17:24:59.528 [main] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[com.bgy.*.*.dao]' package. Please check your configuration.
+2019-07-31 17:24:59.536 [main] WARN  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'tkMybatisConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-07-31 17:25:08.286 [main] WARN  AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.soaUser
+2019-07-31 17:25:12.964 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-31 17:25:12.971 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-31 17:25:14.766 [main] WARN  EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-07-31 17:26:34.763 [http-nio-8081-exec-1] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:34.854 [http-nio-8081-exec-2] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:35.415 [http-nio-8081-exec-3] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:39.701 [http-nio-8081-exec-4] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:40.925 [http-nio-8081-exec-5] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:41.192 [http-nio-8081-exec-6] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:43.081 [http-nio-8081-exec-7] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:44.378 [http-nio-8081-exec-9] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:44.693 [http-nio-8081-exec-8] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:45.119 [http-nio-8081-exec-10] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:45.985 [http-nio-8081-exec-2] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:47.153 [http-nio-8081-exec-1] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:47.404 [http-nio-8081-exec-3] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 17:26:48.897 [http-nio-8081-exec-4] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-31 18:01:00.036 [pool-7-thread-1] WARN  DruidDataSource - get connection timeout retry : 1

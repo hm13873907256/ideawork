@@ -1,0 +1,12 @@
+[2019-07-30 15:27:54.032 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-2[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"0d2aed9beec04085acdcd4fb371dcdb2","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-30 15:36:37.544 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"b4cb41a6c9df462c8dc1952b32c540bd","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-30 15:50:59.635 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"6a4dc2ba3b4c4766ba20eed7f92303d7","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-30 15:51:04.141 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-9[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"7ba88926e9b741279a8bf6dde609afc8","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)

@@ -1,0 +1,19 @@
+2019-07-18 10:14:44.602 [main] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[com.bgy.*.*.dao]' package. Please check your configuration.
+2019-07-18 10:14:44.633 [main] WARN  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'tkMybatisConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-07-18 10:14:54.203 [main] WARN  AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.soaUser
+2019-07-18 10:14:58.329 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-18 10:14:58.335 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-18 10:15:00.054 [main] WARN  EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-07-18 10:36:29.341 [http-nio-8081-exec-3] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-18 10:36:44.552 [http-nio-8081-exec-2] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-18 11:05:33.213 [main] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[com.bgy.*.*.dao]' package. Please check your configuration.
+2019-07-18 11:05:33.223 [main] WARN  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'tkMybatisConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-07-18 11:05:39.983 [main] WARN  AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.soaUser
+2019-07-18 11:05:43.888 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-18 11:05:43.893 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-18 11:05:45.323 [main] WARN  EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-07-18 11:11:32.490 [http-nio-8081-exec-2] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-18 11:12:36.573 [http-nio-8081-exec-1] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-18 11:12:40.389 [http-nio-8081-exec-3] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-18 11:13:30.062 [http-nio-8081-exec-4] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-18 11:13:39.860 [http-nio-8081-exec-5] WARN  SapformServiceLoginAop - 未进行元宝单点登录！

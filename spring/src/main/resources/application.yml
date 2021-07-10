@@ -1,0 +1,4 @@
+server:port: 8080
+server:servlet:context-path: /cn
+name: 许永
+testurl: 这是一个测试地址

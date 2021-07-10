@@ -1,0 +1,14 @@
+2019-07-15 11:31:45.930 [main] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[com.bgy.*.*.dao]' package. Please check your configuration.
+2019-07-15 11:31:45.936 [main] WARN  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'tkMybatisConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-07-15 11:31:58.925 [main] WARN  AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.soaUser
+2019-07-15 11:32:03.117 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-15 11:32:03.122 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-15 11:32:04.499 [main] WARN  EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-07-15 12:45:18.641 [main] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[com.bgy.*.*.dao]' package. Please check your configuration.
+2019-07-15 12:45:18.648 [main] WARN  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'tkMybatisConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-07-15 12:45:24.901 [main] WARN  AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.soaUser
+2019-07-15 12:45:28.751 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-15 12:45:28.757 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-15 12:45:30.176 [main] WARN  EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-07-15 16:01:40.777 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 10.10.179.198:8761 timed out
+2019-07-15 17:01:32.091 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: java.net.SocketTimeoutException: Read timed out

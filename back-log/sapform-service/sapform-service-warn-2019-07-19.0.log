@@ -1,0 +1,32 @@
+2019-07-19 11:23:15.926 [main] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[com.bgy.*.*.dao]' package. Please check your configuration.
+2019-07-19 11:23:15.933 [main] WARN  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'tkMybatisConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-07-19 11:23:23.911 [main] WARN  AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.soaUser
+2019-07-19 11:23:28.492 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-19 11:23:28.498 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-19 11:23:30.212 [main] WARN  EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-07-19 11:24:50.586 [http-nio-8081-exec-2] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:24:55.920 [http-nio-8081-exec-1] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:25:02.850 [http-nio-8081-exec-3] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:25:06.169 [http-nio-8081-exec-4] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:25:12.609 [http-nio-8081-exec-5] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:25:45.062 [http-nio-8081-exec-6] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:25:47.263 [http-nio-8081-exec-7] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:26:05.244 [http-nio-8081-exec-8] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:39:59.567 [http-nio-8081-exec-9] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:40:03.506 [http-nio-8081-exec-10] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:45:41.124 [http-nio-8081-exec-2] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:45:45.541 [http-nio-8081-exec-1] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:45:53.058 [http-nio-8081-exec-3] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:45:54.491 [http-nio-8081-exec-4] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:46:04.416 [http-nio-8081-exec-5] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 11:46:12.887 [http-nio-8081-exec-6] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 14:14:06.472 [http-nio-8081-exec-7] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 14:14:28.107 [http-nio-8081-exec-8] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 14:15:07.575 [http-nio-8081-exec-9] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 14:15:10.851 [http-nio-8081-exec-10] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 14:15:14.026 [http-nio-8081-exec-2] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-19 14:51:23.245 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+2019-07-19 16:23:13.721 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 10.10.179.198:8761 timed out
+2019-07-19 16:23:15.163 [DiscoveryClient-CacheRefreshExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 10.10.179.198:8761 timed out
+2019-07-19 16:23:18.723 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 10.10.179.198:8761 timed out
+2019-07-19 16:23:20.165 [DiscoveryClient-CacheRefreshExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 10.10.179.198:8761 timed out

@@ -1,0 +1,743 @@
+2019-07-10 08:51:20.940 [main] INFO  SapformServiceApplication - No active profile set, falling back to default profiles: default
+2019-07-10 08:51:20.970 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@475835b1: startup date [Wed Jul 10 08:51:20 GMT+08:00 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@d9345cd
+2019-07-10 08:51:30.303 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-10 08:51:30.843 [main] INFO  GenericScope - BeanFactory id=b2f5795c-957e-35ed-a8c2-83978e7f53d9
+2019-07-10 08:51:30.863 [main] INFO  AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-07-10 08:51:30.953 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.bgy.ofa.permission.api.service.LoginUserRemoteService' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 08:51:30.953 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.bgy.ofa.operationsupport.api.service.ApiLogRemoteService' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 08:51:30.953 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.bgy.ofa.operationsupport.api.service.BaseGridConfFeignService' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 08:51:30.953 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.bgy.ofa.operationsupport.api.service.OperationLogRemoteService' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 08:51:31.133 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e92d36b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 08:51:31.353 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$97a50989] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 08:51:31.423 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6aacd668] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 08:51:32.303 [main] INFO  TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-07-10 08:51:32.363 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-10 08:51:32.393 [main] INFO  StandardService - Starting service [Tomcat]
+2019-07-10 08:51:32.393 [main] INFO  StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-07-10 08:51:32.493 [localhost-startStop-1] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 08:51:32.503 [localhost-startStop-1] INFO  ContextLoader - Root WebApplicationContext: initialization completed in 11533 ms
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  FilterRegistrationBean - Mapping filter: 'EKPSSOClientFilter' to urls: [/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  FilterRegistrationBean - Mapping filter: 'EKPSSOClientAuthenticationFilter' to urls: [/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-07-10 08:51:32.893 [localhost-startStop-1] INFO  ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-07-10 08:51:36.442 [main] INFO  DruidConfig - 数据库连接池加载中··············
+2019-07-10 08:51:37.645 [main] INFO  DruidDataSource - {dataSource-1} inited
+2019-07-10 08:51:40.807 [main] INFO  AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3359c3f6: startup date [Wed Jul 10 08:51:40 GMT+08:00 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@475835b1
+2019-07-10 08:51:40.821 [main] INFO  AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-07-10 08:51:43.078 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/testCodeGenerator/{key}],methods=[GET]}" onto public java.lang.String com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.test(java.lang.String)
+2019-07-10 08:51:43.080 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/{bipId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.getBPCPermissionOrder(java.lang.String)
+2019-07-10 08:51:43.080 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/modify],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.postBPCPermissionOrder(com.bgy.ofa.sapformapi.vo.BPCPermissionOrder)
+2019-07-10 08:51:43.080 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/orderDetail/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.getOrderDetailByOrderId(java.lang.String)
+2019-07-10 08:51:43.081 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/{orderId}],methods=[DELETE]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.deleteBPCPermissionOrder(java.lang.String)
+2019-07-10 08:51:43.081 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/fuzzyUserDetailSearch/{searchKey}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.fuzzyUserDetailSearch(java.lang.String)
+2019-07-10 08:51:43.081 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.putBPCPermissionOrder(com.bgy.ofa.sapformapi.vo.BPCPermissionOrder)
+2019-07-10 08:51:43.081 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/reApprovedSapPermission/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.sapApprovedPermisson(java.lang.String)
+2019-07-10 08:51:43.082 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/search],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.getBPCPermissionOrderByConditions(com.bgy.ofa.sapformapi.vo.BPCPermissionOrder,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.082 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/getYsdw],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.getYsdw()
+2019-07-10 08:51:43.082 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/userDetailMsg/{bipId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.getUserDetailMsg(java.lang.String)
+2019-07-10 08:51:43.083 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/bpc-am-service/processHandler],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BPCPermissionOrderController.processHandler(java.lang.String,java.lang.String,java.lang.String)
+2019-07-10 08:51:43.085 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/order],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.order(com.bgy.ofa.sapformservice.entity.dto.BSPOrderDTO)
+2019-07-10 08:51:43.085 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/mark]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.mark(java.lang.String,java.lang.String)
+2019-07-10 08:51:43.085 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/getLogisticsByDocumentNo]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.getLogisticsByDocumentNo(java.lang.String)
+2019-07-10 08:51:43.085 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/getSelectedFormId],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.getSelectedFormId()
+2019-07-10 08:51:43.085 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/addressPage],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.addressPage(com.bgy.ofa.sapformservice.entity.dto.BSPAddressDTO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.086 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/markSelectFormId],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.markSelectFormId(java.lang.String)
+2019-07-10 08:51:43.086 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/waybillRoute/{orderId}]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.getWaybillRoute(java.lang.String)
+2019-07-10 08:51:43.086 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/unmark]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.unmark(java.lang.String)
+2019-07-10 08:51:43.086 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/delAddress/{id}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.delAddress(java.lang.String)
+2019-07-10 08:51:43.087 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/aliasList],methods=[GET]}" onto com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.aliasList(java.lang.String)
+2019-07-10 08:51:43.087 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/saveAddress],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.saveAddress(com.bgy.ofa.sapformservice.entity.dto.BSPAddressDTO)
+2019-07-10 08:51:43.087 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/cancelOrder/{mailno}]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.cancelOrder(java.lang.String)
+2019-07-10 08:51:43.087 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/logisticsInfo]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.BSPController.logisticsInfo(java.lang.String)
+2019-07-10 08:51:43.088 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/bsp/notify],methods=[POST]}" onto public void com.bgy.ofa.sapformservice.controller.external.BSPExternalController.notify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-07-10 08:51:43.088 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/k2/process_data/receive],methods=[POST]}" onto public com.bgy.ofa.sapformservice.entity.vo.K2ProcessDataVO com.bgy.ofa.sapformservice.controller.external.K2ProcessDataController.receive(com.bgy.ofa.sapformservice.entity.dto.K2ProcessDataDTO,java.lang.String)
+2019-07-10 08:51:43.089 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/sapModify],methods=[POST]}" onto public com.bgy.ofa.sapformservice.entity.vo.K2ProcessDataVO com.bgy.ofa.sapformservice.controller.external.SapFormAutoPermissionController.sapModifyFormAmPermissionOrder(com.bgy.ofa.sapformservice.entity.dto.SapFormAmPermissionOrderEsbDTO,java.lang.String)
+2019-07-10 08:51:43.089 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/getAutoPermission/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapFormAutoPermissionController.getSapFormAmPermissionOrderByOrderId(java.lang.String)
+2019-07-10 08:51:43.090 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/path/{filen}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapFormDownController.path(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-10 08:51:43.090 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/download/{filename}],methods=[GET]}" onto public void com.bgy.ofa.sapformservice.controller.external.SapFormDownController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-10 08:51:43.091 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/uploadFile],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.external.SapFormDownController.uploadFile(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest) throws java.lang.IllegalStateException,java.io.IOException
+2019-07-10 08:51:43.093 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/querysapfcaccountbyidexternal/{orderId}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapformFcAccountExternalController.querySapFcAccountByIdExternal(java.lang.String)
+2019-07-10 08:51:43.093 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/updsapfcaccountexternal],methods=[POST]}" onto public com.bgy.ofa.sapformservice.entity.vo.K2ProcessDataVO com.bgy.ofa.sapformservice.controller.external.SapformFcAccountExternalController.updSapFcAccountExternal(com.bgy.ofa.sapformservice.entity.dto.SapFormEsbDTO,java.lang.String)
+2019-07-10 08:51:43.093 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/updsapfcaccountallexternal],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapformFcAccountExternalController.updSapFcAccountAllExternal(com.bgy.ofa.sapformservice.entity.dto.SapformFcAccountParentDTO,java.lang.String,java.lang.String)
+2019-07-10 08:51:43.093 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/getCurrnetNodeId/{docId}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapformFcAccountExternalController.getCurrnetNodeId(java.lang.String)
+2019-07-10 08:51:43.094 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformfpcorporate/updfpcorporateexternal],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapformFpCorporateExternalController.updFpCorporateExternal(com.bgy.ofa.sapformservice.entity.dto.SapformFpCorporateDTO,java.lang.String)
+2019-07-10 08:51:43.095 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformfpcorporate/getfpcorporatebyidexternal/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapformFpCorporateExternalController.getFpCorporateByIdExternal(java.lang.String)
+2019-07-10 08:51:43.097 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformFpInvoiceController/updfpinvoiceexternal],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapformFpInvoiceExternalController.updfpinvoiceexternal(com.bgy.ofa.sapformservice.entity.dto.SapformFpInvoiceDTO,java.lang.String)
+2019-07-10 08:51:43.097 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformFpInvoiceController/getfpinvoicebyidexternal/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapformFpInvoiceExternalController.getfpinvoicebyidexternal(java.lang.String)
+2019-07-10 08:51:43.100 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/add],methods=[POST]}" onto public com.bgy.ofa.sapformservice.entity.vo.K2ProcessDataVO com.bgy.ofa.sapformservice.controller.external.SapformSdExternalController.add(com.bgy.ofa.sapformservice.entity.dto.SapFormEsbDTO,java.lang.String)
+2019-07-10 08:51:43.100 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/message],methods=[POST]}" onto public com.bgy.ofa.sapformservice.entity.vo.K2ProcessDataVO com.bgy.ofa.sapformservice.controller.external.SapformSdExternalController.message(com.bgy.ofa.sapformservice.entity.dto.SapFormEsbDTO)
+2019-07-10 08:51:43.100 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/updateStatus],methods=[POST]}" onto public com.bgy.ofa.sapformservice.entity.vo.K2ProcessDataVO com.bgy.ofa.sapformservice.controller.external.SapformSdExternalController.updateApprovalStatus(com.bgy.ofa.sapformservice.entity.dto.SapFormEsbDTO)
+2019-07-10 08:51:43.101 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/updztcustocenterallexternal],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapformZtCustoCenterExternalController.updZtCustoCenterAllExternal(com.bgy.ofa.sapformservice.entity.dto.SapformZtCustoCenterSaveDTO,java.lang.String,java.lang.String)
+2019-07-10 08:51:43.101 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/queryztcustocenterbyidexternal/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapformZtCustoCenterExternalController.querYztCustocenterByIdExternal(java.lang.String)
+2019-07-10 08:51:43.102 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/updztcustocenterexternal],methods=[POST]}" onto public com.bgy.ofa.sapformservice.entity.vo.K2ProcessDataVO com.bgy.ofa.sapformservice.controller.external.SapformZtCustoCenterExternalController.updZtCustoCenterExternal(com.bgy.ofa.sapformservice.entity.dto.SapFormEsbDTO,java.lang.String)
+2019-07-10 08:51:43.102 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/zzreverseaccountexternal/updsapzzreverseaccountexternal],methods=[POST]}" onto public com.bgy.ofa.sapformservice.entity.vo.K2ProcessDataVO com.bgy.ofa.sapformservice.controller.external.SapformZzReverseAccountExternalController.updSapFcAccountExternal(com.bgy.ofa.sapformservice.entity.dto.SapFormEsbDTO,java.lang.String)
+2019-07-10 08:51:43.102 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/zzreverseaccountexternal/queryzzreverseaccountlistbyid/{cid}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SapformZzReverseAccountExternalController.queryZzReverseAccountListById(java.lang.String)
+2019-07-10 08:51:43.107 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getcgzz],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getCgzz(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.107 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getcplx],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getCplx(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.108 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getbmfzr],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getBmfzr(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.108 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getpeopleinfo],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getPeopleInfo(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.108 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getgcyt],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getGcyt(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.108 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getckfzr],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getCkfzr(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.108 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/tabledata],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getTableData(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.108 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/baseinfo],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getBaseInfo()
+2019-07-10 08:51:43.108 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/yxbaseinfo],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getYxBaseInfo()
+2019-07-10 08:51:43.109 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getfylx],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getFylx(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.109 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getsght],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getSght(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.109 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getyszybm],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getYszybm(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.109 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getkczz],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getKczz(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.109 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getzxbz],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getZxbz(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.109 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getqgbm],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getQgbm(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.110 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getxmmc],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getXmmc(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.110 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getyszydw],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getYszydw(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.110 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getchbm],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getChbm(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.111 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/excel/dccblmodel],methods=[GET]}" onto public void com.bgy.ofa.sapformservice.controller.external.SgController.dcCblModel(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-07-10 08:51:43.111 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/excel/dcgdzcmodel],methods=[GET]}" onto public void com.bgy.ofa.sapformservice.controller.external.SgController.dcGdzcModel(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-07-10 08:51:43.111 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/importdcexcel],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.external.SgController.importDcExcel(org.springframework.web.multipart.MultipartFile,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+2019-07-10 08:51:43.111 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getxqck],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getXqck(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.111 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/excel/dcfylmodel],methods=[GET]}" onto public void com.bgy.ofa.sapformservice.controller.external.SgController.dcFylModel(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-07-10 08:51:43.111 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/exportdcexcel],methods=[GET]}" onto public void com.bgy.ofa.sapformservice.controller.external.SgController.exportDcExcel(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-07-10 08:51:43.111 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getyxxqck],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.getYxXqck(java.lang.String,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.112 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/exportyxexcel],methods=[GET]}" onto public void com.bgy.ofa.sapformservice.controller.external.SgController.exportYxExcel(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-07-10 08:51:43.112 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/excel/yxmodel],methods=[GET]}" onto public void com.bgy.ofa.sapformservice.controller.external.SgController.yxModel(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-07-10 08:51:43.112 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/importyxexcel],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.external.SgController.importYxExcel(org.springframework.web.multipart.MultipartFile,java.lang.String,java.lang.String) throws java.lang.Exception
+2019-07-10 08:51:43.112 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/searchsginfobyid2],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.searchSgInfoById2(com.bgy.ofa.sapformservice.entity.po.SgHeadInfoPO)
+2019-07-10 08:51:43.112 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/searchsgyxinfobyid2],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgController.searchSgYxInfoById2(com.bgy.ofa.sapformservice.entity.po.SgYxHeadInfoPO)
+2019-07-10 08:51:43.112 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/commit],methods=[POST]}" onto public void com.bgy.ofa.sapformservice.controller.external.SgController.commit()
+2019-07-10 08:51:43.114 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/filedownload],methods=[GET]}" onto public org.springframework.http.ResponseEntity<byte[]> com.bgy.ofa.sapformservice.controller.external.SgFileUploadController.fileDownload(java.lang.String) throws java.io.IOException
+2019-07-10 08:51:43.114 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/fileupload],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgFileUploadController.fileUpload(org.springframework.web.multipart.MultipartFile,java.lang.String,java.lang.String)
+2019-07-10 08:51:43.114 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/filedelete],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.external.SgFileUploadController.fileDelete(java.lang.String)
+2019-07-10 08:51:43.114 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/receive/approvalstatus],methods=[POST]}" onto public com.bgy.ofa.sapformservice.entity.vo.K2ProcessDataVO com.bgy.ofa.sapformservice.controller.external.SgK2Controller.receiveApprovalStatus(com.bgy.ofa.sapformservice.entity.dto.K2ProcessDataDTO)
+2019-07-10 08:51:43.116 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/mdgbanknumber],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.external.SgMdgController.mdgBankNumber(java.lang.String)
+2019-07-10 08:51:43.116 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/mdgsupplier],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.external.SgMdgController.mdgSupplier(java.lang.String)
+2019-07-10 08:51:43.116 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/mdgproject],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.external.SgMdgController.mdgProject(java.lang.String)
+2019-07-10 08:51:43.117 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/mdgperiod],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.external.SgMdgController.mdgPeriod(java.lang.String)
+2019-07-10 08:51:43.117 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/mdguserother],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.external.SgMdgController.mdgUserOther(java.lang.String)
+2019-07-10 08:51:43.118 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/operatenc],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.external.SgNcController.operatenc(java.lang.String)
+2019-07-10 08:51:43.118 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/k2empower/empowerk2process/{k2Id}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.K2EmpowerController.empowerK2Process(java.lang.String,java.util.List<java.lang.String>)
+2019-07-10 08:51:43.120 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/testCodeGenerator/{key}],methods=[GET]}" onto public java.lang.String com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.test(java.lang.String)
+2019-07-10 08:51:43.120 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/orderDetail/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.getOrderDetailByOrderId(java.lang.String)
+2019-07-10 08:51:43.120 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/fuzzyUserDetailSearch/{searchKey}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.fuzzyUserDetailSearch(java.lang.String)
+2019-07-10 08:51:43.121 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/reApprovedSapPermission/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.sapApprovedPermisson(java.lang.String)
+2019-07-10 08:51:43.121 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.putSapFormAmPermissionOrder(com.bgy.ofa.sapformapi.vo.SapFormAmPermissionOrder)
+2019-07-10 08:51:43.121 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/{bipId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.getSapFormAmPermissionOrder(java.lang.String)
+2019-07-10 08:51:43.121 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/modify],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.postSapFormAmPermissionOrder(com.bgy.ofa.sapformapi.vo.SapFormAmPermissionOrder)
+2019-07-10 08:51:43.121 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/{orderId}],methods=[DELETE]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.deleteSapFormAmPermissionOrder(java.lang.String)
+2019-07-10 08:51:43.122 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/search],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.getSapFormAmPermissionOrderByConditions(com.bgy.ofa.sapformapi.vo.SapFormAmPermissionOrder,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.122 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/getYsdw],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.getYsdw()
+2019-07-10 08:51:43.122 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/userDetailMsg/{bipId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.getUserDetailMsg(java.lang.String)
+2019-07-10 08:51:43.122 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-am-service/processHandler],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAmPermissionOrderController.processHandler(java.lang.String,java.lang.String,java.lang.String)
+2019-07-10 08:51:43.123 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/authority/save],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAuthorityController.save(com.bgy.ofa.sapformservice.entity.dto.SapFormAuthorityDTO)
+2019-07-10 08:51:43.124 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/authority/findById],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAuthorityController.findById(java.lang.String)
+2019-07-10 08:51:43.124 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/authority/getBigArea],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAuthorityController.getBigArea()
+2019-07-10 08:51:43.124 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/authority/getAccountingUnitList],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAuthorityController.getAccountingUnitList(java.lang.String)
+2019-07-10 08:51:43.124 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/authority/page],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAuthorityController.page(com.bgy.ofa.sapformservice.entity.dto.SapFormAuthorityDTO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.124 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/authority/del],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormAuthorityController.del(java.lang.String)
+2019-07-10 08:51:43.125 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform-dict-service/{key}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapFormDictController.getSapFormDict(java.lang.String)
+2019-07-10 08:51:43.127 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/getzprobyzprocode/{zprocode}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.getZproByZprocode(java.lang.String)
+2019-07-10 08:51:43.127 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/getaccountbysap],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.getAccountBySap(com.bgy.ofa.sapformservice.entity.dto.SapAccountSearchDTO)
+2019-07-10 08:51:43.127 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/restartk2process/{orderId}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.restartK2Process(java.lang.String)
+2019-07-10 08:51:43.128 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/sapretry/{orderId}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.sapRetry(java.lang.String)
+2019-07-10 08:51:43.128 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/getcityorarea],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.getCityOrArea(java.lang.String,java.lang.String)
+2019-07-10 08:51:43.128 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/searchByZuserId/{searchKey}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.searchByZuserId(java.lang.String)
+2019-07-10 08:51:43.128 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/savesapfcaccount],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.saveSapFcAccount(com.bgy.ofa.sapformservice.entity.dto.SapformFcAccountParentDTO,java.lang.String,java.lang.String)
+2019-07-10 08:51:43.128 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/delsapfcaccount],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.delSapFcAccount(java.util.List<java.lang.String>)
+2019-07-10 08:51:43.128 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/fuzzyUserDetailSearch/{searchKey}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.fuzzyUserDetailSearch(java.lang.String)
+2019-07-10 08:51:43.128 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/querysapfcaccountbyid/{orderId}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.querySapFcAccountById(java.lang.String)
+2019-07-10 08:51:43.128 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/querysapfcaccount],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.querySapFcAccount(com.bgy.ofa.sapformservice.entity.dto.SapformFcAccountDTO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.129 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapfcaccount/updsapfcaccount],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFcAccountController.updSapFcAccount(com.bgy.ofa.sapformservice.entity.dto.SapformFcAccountParentDTO,java.lang.String,java.lang.String)
+2019-07-10 08:51:43.130 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformfpcorporate/queryfpcorporatelist],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpCorporateController.queryFpCorporateList(com.bgy.ofa.sapformservice.entity.dto.SapformFpCorporateDTO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.133 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformfpcorporate/savefpcorporate],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpCorporateController.saveFpCorporate(com.bgy.ofa.sapformservice.entity.dto.SapformFpCorporateDTO,java.lang.String)
+2019-07-10 08:51:43.133 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformfpcorporate/restartk2process/{orderId}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpCorporateController.restartK2Process(java.lang.String)
+2019-07-10 08:51:43.133 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformfpcorporate/getfpcorporatebyid/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpCorporateController.getFpCorporateById(java.lang.String)
+2019-07-10 08:51:43.133 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformfpcorporate/updfpcorporate],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpCorporateController.updFpCorporate(com.bgy.ofa.sapformservice.entity.dto.SapformFpCorporateDTO,java.lang.String)
+2019-07-10 08:51:43.133 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformfpcorporate/deletefpcorporate/{orderId}],methods=[DELETE]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpCorporateController.deleteFpCorporate(java.lang.String)
+2019-07-10 08:51:43.135 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformFpInvoiceController/deletefpInvoice/{orderId}],methods=[DELETE]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpInvoiceController.deleteFpInvoice(java.lang.String)
+2019-07-10 08:51:43.135 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformFpInvoiceController/restartk2process/{orderId}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpInvoiceController.restartK2Process(java.lang.String)
+2019-07-10 08:51:43.135 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformFpInvoiceController/saveFpInvoice],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpInvoiceController.saveFpInvoice(com.bgy.ofa.sapformservice.entity.dto.SapformFpInvoiceDTO,java.lang.String)
+2019-07-10 08:51:43.135 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformFpInvoiceController/updFpInvoice],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpInvoiceController.updFpCorporate(com.bgy.ofa.sapformservice.entity.dto.SapformFpInvoiceDTO,java.lang.String)
+2019-07-10 08:51:43.135 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformFpInvoiceController/getfpInvoicebyid/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpInvoiceController.getfpInvoicebyid(java.lang.String)
+2019-07-10 08:51:43.136 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sapformFpInvoiceController/queryFpInvoiceList],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformFpInvoiceController.queryFpInvoiceList(com.bgy.ofa.sapformservice.entity.dto.SapformFpInvoiceDTO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.136 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/FourFees/FFMonitorinlist],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformJKFourFeesController.FFMonitorinlist(com.bgy.ofa.sapformservice.entity.po.SapformJKFourFessPO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.136 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/JkRetroGrapInvoice/sapformJkRetroGrapInvoiceList],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformJKFpRetroGraphyInvoiceController.queryFpRetroByName(com.bgy.ofa.sapformservice.entity.po.SapformJKFpretrographyInvoicePO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.137 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/Verification/sapformJkVerificationList],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformJKVerificationRetrographyController.queryVerification(com.bgy.ofa.sapformservice.entity.vo.SapformJKVerificationRetrographyVO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.137 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/yfMonitorin/yfMonitorinlist],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformJKYfMonitoringController.yfMonitorinlist(com.bgy.ofa.sapformservice.entity.po.SapformJKYfMonitoringPO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.138 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/get/{id}]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.get(java.lang.String)
+2019-07-10 08:51:43.139 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/accept]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.accept(java.util.ArrayList<java.lang.String>)
+2019-07-10 08:51:43.139 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/reject]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.reject(java.lang.String,java.lang.String)
+2019-07-10 08:51:43.139 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/getMessageList]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.getMessageList(java.lang.String)
+2019-07-10 08:51:43.139 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/unHangUp]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.unHangUp(java.util.ArrayList<java.lang.String>)
+2019-07-10 08:51:43.139 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/logisticsPage],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.getLogisticsPage(com.bgy.ofa.sapformservice.entity.dto.SapformSdDTO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.139 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/contact]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.contact(java.lang.String,java.lang.String)
+2019-07-10 08:51:43.140 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/hangUp]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.hangUp(java.util.ArrayList<java.lang.String>)
+2019-07-10 08:51:43.140 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/areaList]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.getAreaList()
+2019-07-10 08:51:43.140 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/page],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.page(com.bgy.ofa.sapformservice.entity.dto.SapformSdDTO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.140 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sd/queryByDocumentNo]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformSdController.queryByDocumentNo(java.lang.String)
+2019-07-10 08:51:43.141 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/getzprobyztbm/{ztbm}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.getZproByZtbm(java.lang.String)
+2019-07-10 08:51:43.141 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/delete/{id}],methods=[DELETE]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.deleteResc(java.lang.String)
+2019-07-10 08:51:43.142 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/getzcostbyzkosttl/{zkostl}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.getZcostByZkostl(java.lang.String)
+2019-07-10 08:51:43.142 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/restartk2process/{orderId}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.restartK2Process(java.lang.String)
+2019-07-10 08:51:43.142 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/sapretry/{orderId}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.sapRetry(java.lang.String)
+2019-07-10 08:51:43.142 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/updztcustocenter],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.updZtCustoCenter(com.bgy.ofa.sapformservice.entity.dto.SapformZtCustoCenterSaveDTO,java.lang.String,java.lang.String)
+2019-07-10 08:51:43.142 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/queryztcustocenterbyid/{orderId}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.querYztCustocenterById(java.lang.String)
+2019-07-10 08:51:43.142 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/getcustocenterbyprofit/{profit}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.getCustoCenterByProfit(java.lang.String)
+2019-07-10 08:51:43.143 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/queryztcustocenterlist],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.queryZtCustoCenterList(com.bgy.ofa.sapformservice.entity.dto.SapformZtCustoCenterDTO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.143 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/queryztcustocenterdetail/{cid}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.queryztcustocenterdetail(java.lang.String)
+2019-07-10 08:51:43.143 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/ztcustocenter/saveztcustocenter],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.saveztcustocenter(com.bgy.ofa.sapformservice.entity.dto.SapformZtCustoCenterSaveDTO,java.lang.String,java.lang.String)
+2019-07-10 08:51:43.143 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/zzreverseaccount/getzprobyzpro],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZzReverseAccountController.getZpro(com.bgy.ofa.sapformservice.entity.dto.SapProRequest)
+2019-07-10 08:51:43.144 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/zzreverseaccount/submittosap],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZzReverseAccountController.submitToSap(java.lang.String)
+2019-07-10 08:51:43.144 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/zzreverseaccount/delsapreverseaccount],methods=[DELETE]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZzReverseAccountController.delSapFcAccount(java.util.List<java.lang.String>)
+2019-07-10 08:51:43.144 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/zzreverseaccount/queryzzreverseaccountlistbyid/{cid}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZzReverseAccountController.queryZzReverseAccountListById(java.lang.String)
+2019-07-10 08:51:43.144 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/zzreverseaccount/queryaccountperiod],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZzReverseAccountController.queryAccountPeriod(com.bgy.ofa.sapformservice.entity.dto.SapPubRequest)
+2019-07-10 08:51:43.144 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/zzreverseaccount/queryzzreverseaccountlist],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZzReverseAccountController.queryZzReverseAccountList(com.bgy.ofa.sapformservice.entity.dto.SapformZzReverseAccountDTO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.144 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/zzreverseaccount/savezzreverseaccount],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapformZzReverseAccountController.saveZzReverseAccount(com.bgy.ofa.sapformservice.entity.dto.SapformZzReverseAccountSaveDTO,java.lang.String,boolean)
+2019-07-10 08:51:43.145 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/guquanmap/select],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapGuQuanMapController.GuQuanMap(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-07-10 08:51:43.145 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/guquanmap/selectOne],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapGuQuanMapController.GuQuanMapSelectOne(java.lang.String,java.lang.String)
+2019-07-10 08:51:43.145 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sap-s4/userAuthority],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapUserPermissionController.querySapUserPer(com.bgy.ofa.sapformservice.entity.dto.SapUserPermissionRequest)
+2019-07-10 08:51:43.146 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sap-s4/jobMsg],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapUserPermissionController.querySapJobMsg(com.bgy.ofa.sapformservice.entity.dto.SapJobaMsgRequest)
+2019-07-10 08:51:43.146 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sap-s4/approvedPermisson],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SapUserPermissionController.callSapApprovedPermisson(com.bgy.ofa.sapformservice.entity.dto.SapApprovedPermissonRequest)
+2019-07-10 08:51:43.146 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getorderfromnc],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgGetNcController.getOrderFromNc(java.lang.String)
+2019-07-10 08:51:43.147 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getvdef9fromnc],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgGetNcController.getVdef9FromNc(java.lang.String)
+2019-07-10 08:51:43.147 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/getcgeneralhcromnc],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgGetNcController.getCgeneralhFromNc(java.lang.String)
+2019-07-10 08:51:43.148 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/deletesginfo],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgInfocontroller.deleteSgInfo(com.bgy.ofa.sapformservice.entity.po.SgHeadInfoPO)
+2019-07-10 08:51:43.149 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/updatesginfo],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgInfocontroller.updateSgInfo(com.bgy.ofa.sapformservice.entity.vo.SgInfoVO)
+2019-07-10 08:51:43.149 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/commitsginfo],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.SgInfocontroller.commitSgInfo(com.bgy.ofa.sapformservice.entity.vo.SgInfoVO)
+2019-07-10 08:51:43.149 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/savesginfo],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgInfocontroller.saveSgInfo(com.bgy.ofa.sapformservice.entity.vo.SgInfoVO)
+2019-07-10 08:51:43.150 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/searchsginfobyid],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgInfocontroller.searchSgInfoById(com.bgy.ofa.sapformservice.entity.po.SgHeadInfoPO)
+2019-07-10 08:51:43.150 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/again/commitsginfo],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.SgInfocontroller.commitSgInfoAgain(com.bgy.ofa.sapformservice.entity.vo.SgInfoVO)
+2019-07-10 08:51:43.150 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/update/commitsginfo],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.SgInfocontroller.updateCommitSgInfo(com.bgy.ofa.sapformservice.entity.vo.SgInfoVO)
+2019-07-10 08:51:43.150 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/searchsgtablelist],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgInfocontroller.searchSgTableList(com.bgy.ofa.sapformservice.entity.po.SgHeadInfoPO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.151 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sguseraddpermission],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgPermissionController.sgUserAddPermission(com.bgy.ofa.sapformservice.entity.vo.SgPermissionVO)
+2019-07-10 08:51:43.151 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sguserdelpermission],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgPermissionController.sgUserDelPermission(com.bgy.ofa.sapformservice.entity.vo.SgPermissionVO)
+2019-07-10 08:51:43.151 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sgusergivepermission],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgPermissionController.SgUserGivePermission()
+2019-07-10 08:51:43.151 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/sguserhaspermission],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgPermissionController.querySgUserHasPermission()
+2019-07-10 08:51:43.152 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/updatesgyxinfo],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgYxInfoController.updateSgYxInfo(com.bgy.ofa.sapformservice.entity.vo.SgYxInfoVO)
+2019-07-10 08:51:43.153 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/savesgyxinfo],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgYxInfoController.saveSgYxInfo(com.bgy.ofa.sapformservice.entity.vo.SgYxInfoVO)
+2019-07-10 08:51:43.153 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/commitsgyxinfo],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.SgYxInfoController.commitSgYxInfo(com.bgy.ofa.sapformservice.entity.vo.SgYxInfoVO)
+2019-07-10 08:51:43.153 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/deletesgyxinfo],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgYxInfoController.deleteSgYxInfo(com.bgy.ofa.sapformservice.entity.po.SgYxHeadInfoPO)
+2019-07-10 08:51:43.154 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/searchsgyxinfobyid],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgYxInfoController.searchSgYxInfoById(com.bgy.ofa.sapformservice.entity.po.SgYxHeadInfoPO)
+2019-07-10 08:51:43.154 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/searchsgyxtablelist],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SgYxInfoController.searchSgYxTableList(com.bgy.ofa.sapformservice.entity.po.SgYxHeadInfoPO,com.bgy.ofa.db.page.PageParam)
+2019-07-10 08:51:43.154 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/update/commitsgyxinfo],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.SgYxInfoController.updateCommitSgYxInfo(com.bgy.ofa.sapformservice.entity.vo.SgYxInfoVO)
+2019-07-10 08:51:43.154 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/again/commitsgyxinfo],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.SgYxInfoController.commitSgYxInfoAgain(com.bgy.ofa.sapformservice.entity.vo.SgYxInfoVO)
+2019-07-10 08:51:43.155 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sso]}" onto public java.lang.String com.bgy.ofa.sapformservice.controller.SSOController.handleSSOLogin(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-10 08:51:43.155 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sso/currentUser]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.bgy.ofa.sapformservice.controller.SSOController.getCurrentUsername()
+2019-07-10 08:51:43.155 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/superDataAdmin/saveUsers/{code}],methods=[POST]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SuperDataAdminManageController.saveSuperDataAdminUsers(java.lang.String,java.util.List<java.lang.String>)
+2019-07-10 08:51:43.155 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/sapform/superDataAdmin/listUsers/{code}],methods=[GET]}" onto public com.bgy.ofa.utils.apiresult.AbstractApiResult com.bgy.ofa.sapformservice.controller.SuperDataAdminManageController.listSuperDataAdminUsers(java.lang.String)
+2019-07-10 08:51:43.158 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-07-10 08:51:43.159 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-07-10 08:51:43.160 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-07-10 08:51:43.164 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-10 08:51:43.165 [main] INFO  RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-10 08:51:45.209 [main] INFO  EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.209 [main] INFO  EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.209 [main] INFO  EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.210 [main] INFO  EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-07-10 08:51:45.210 [main] INFO  EndpointHandlerMapping - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-07-10 08:51:45.211 [main] INFO  EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.211 [main] INFO  EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.211 [main] INFO  EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.212 [main] INFO  EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-07-10 08:51:45.212 [main] INFO  EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.213 [main] INFO  EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-07-10 08:51:45.213 [main] INFO  EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.213 [main] INFO  EndpointHandlerMapping - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-07-10 08:51:45.213 [main] INFO  EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-07-10 08:51:45.214 [main] INFO  EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.214 [main] INFO  EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2019-07-10 08:51:45.214 [main] INFO  EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2019-07-10 08:51:45.215 [main] INFO  EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-07-10 08:51:45.215 [main] INFO  EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-10 08:51:45.215 [main] INFO  EndpointHandlerMapping - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.216 [main] INFO  EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-07-10 08:51:45.216 [main] INFO  EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-07-10 08:51:45.216 [main] INFO  EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.217 [main] INFO  EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-07-10 08:51:45.439 [main] INFO  PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-10 08:51:46.063 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-10 08:51:46.068 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-10 08:51:46.292 [main] INFO  RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@475835b1: startup date [Wed Jul 10 08:51:20 GMT+08:00 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@d9345cd
+2019-07-10 08:51:46.395 [main] INFO  SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-10 08:51:46.395 [main] INFO  SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-10 08:51:46.422 [main] INFO  ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionHandler
+2019-07-10 08:51:46.458 [main] INFO  SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-10 08:51:47.244 [main] INFO  SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@475835b1: startup date [Wed Jul 10 08:51:20 GMT+08:00 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@d9345cd] and template loader path [classpath:/templates/]
+2019-07-10 08:51:47.245 [main] INFO  FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-07-10 08:51:47.685 [main] INFO  AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-07-10 08:51:47.688 [main] INFO  AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-10 08:51:47.707 [main] INFO  AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-07-10 08:51:47.707 [main] INFO  AnnotationMBeanExporter - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-07-10 08:51:47.707 [main] INFO  AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-07-10 08:51:47.708 [main] INFO  AnnotationMBeanExporter - Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2019-07-10 08:51:47.709 [main] INFO  AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-07-10 08:51:47.712 [main] INFO  AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-07-10 08:51:47.779 [main] INFO  AnnotationMBeanExporter - Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2019-07-10 08:51:47.791 [main] INFO  AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-07-10 08:51:47.814 [main] INFO  AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=475835b1,type=ConfigurationPropertiesRebinder]
+2019-07-10 08:51:47.821 [main] INFO  AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-07-10 08:51:47.824 [main] INFO  AnnotationMBeanExporter - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-07-10 08:51:47.829 [main] INFO  EndpointMBeanExporter - Registering beans for JMX exposure on startup
+2019-07-10 08:51:47.847 [main] INFO  DefaultLifecycleProcessor - Starting beans in phase 0
+2019-07-10 08:51:47.872 [main] INFO  InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-10 08:51:47.920 [main] INFO  DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-10 08:51:48.466 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-10 08:51:48.466 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-10 08:51:49.863 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-10 08:51:49.863 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-10 08:51:50.454 [main] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-10 08:51:50.838 [main] INFO  DiscoveryClient - Disable delta property : false
+2019-07-10 08:51:50.838 [main] INFO  DiscoveryClient - Single vip registry refresh property : null
+2019-07-10 08:51:50.838 [main] INFO  DiscoveryClient - Force full registry fetch : false
+2019-07-10 08:51:50.838 [main] INFO  DiscoveryClient - Application is null : false
+2019-07-10 08:51:50.838 [main] INFO  DiscoveryClient - Registered Applications size is zero : true
+2019-07-10 08:51:50.838 [main] INFO  DiscoveryClient - Application version is -1: true
+2019-07-10 08:51:50.838 [main] INFO  DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-10 08:51:51.148 [main] INFO  DiscoveryClient - The response status is 200
+2019-07-10 08:51:51.152 [main] INFO  DiscoveryClient - Starting heartbeat executor: renew interval is: 5
+2019-07-10 08:51:51.154 [main] INFO  InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-10 08:51:51.158 [main] INFO  DiscoveryClient - Discovery Client initialized at timestamp 1562719911158 with initial instances count: 302
+2019-07-10 08:51:51.181 [main] INFO  EurekaServiceRegistry - Registering application sapform-service with eureka with status UP
+2019-07-10 08:51:51.181 [main] INFO  DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562719911181, current=UP, previous=STARTING]
+2019-07-10 08:51:51.183 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_SAPFORM-SERVICE/10.187.53.228:8081: registering service...
+2019-07-10 08:51:51.188 [main] INFO  EndpointMBeanExporter - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-07-10 08:51:51.197 [main] INFO  EndpointMBeanExporter - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2019-07-10 08:51:51.211 [main] INFO  EndpointMBeanExporter - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2019-07-10 08:51:51.213 [main] INFO  EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-07-10 08:51:51.216 [main] INFO  EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-07-10 08:51:51.218 [main] INFO  EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-07-10 08:51:51.221 [main] INFO  EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-07-10 08:51:51.225 [main] INFO  EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-07-10 08:51:51.229 [main] INFO  EndpointMBeanExporter - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-07-10 08:51:51.236 [main] INFO  EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-07-10 08:51:51.239 [main] INFO  EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-07-10 08:51:51.242 [main] INFO  EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-07-10 08:51:51.245 [main] INFO  EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-07-10 08:51:51.248 [main] INFO  EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-07-10 08:51:51.249 [main] INFO  DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-07-10 08:51:51.250 [main] INFO  DocumentationPluginsBootstrapper - Context refreshed
+2019-07-10 08:51:51.269 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_SAPFORM-SERVICE/10.187.53.228:8081 - registration status: 204
+2019-07-10 08:51:51.272 [main] INFO  DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-07-10 08:51:51.323 [main] INFO  ApiListingReferenceScanner - Scanning for api listing references
+2019-07-10 08:51:51.828 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: fuzzyUserDetailSearchUsingGET_1
+2019-07-10 08:51:51.833 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: getOrderDetailByOrderIdUsingGET_1
+2019-07-10 08:51:51.880 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: getUserDetailMsgUsingGET_1
+2019-07-10 08:51:51.884 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: getYsdwUsingGET_1
+2019-07-10 08:51:51.897 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: processHandlerUsingGET_1
+2019-07-10 08:51:51.906 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: sapApprovedPermissonUsingGET_1
+2019-07-10 08:51:51.909 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2019-07-10 08:51:51.996 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: fuzzyUserDetailSearchUsingGET_2
+2019-07-10 08:51:52.253 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: restartK2ProcessUsingPOST_1
+2019-07-10 08:51:52.303 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: restartK2ProcessUsingPOST_2
+2019-07-10 08:51:52.314 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: updFpCorporateUsingPOST_1
+2019-07-10 08:51:52.640 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: pageUsingPOST_1
+2019-07-10 08:51:52.771 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: restartK2ProcessUsingPOST_3
+2019-07-10 08:51:52.775 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: sapRetryUsingPOST_1
+2019-07-10 08:51:52.879 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: queryZzReverseAccountListByIdUsingGET_1
+2019-07-10 08:51:52.882 [main] INFO  CachingOperationNameGenerator - Generating unique operation named: updSapFcAccountExternalUsingPOST_1
+2019-07-10 08:51:53.405 [main] INFO  ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-07-10 08:51:53.414 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-07-10 08:51:53.427 [main] INFO  NioSelectorPool - Using a shared selector for servlet write/read
+2019-07-10 08:51:53.446 [main] INFO  TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2019-07-10 08:51:53.447 [main] INFO  EurekaAutoServiceRegistration - Updating port to 8081
+2019-07-10 08:51:53.453 [main] INFO  SapformServiceApplication - Started SapformServiceApplication in 37.153 seconds (JVM running for 42.551)
+2019-07-10 08:55:00.751 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[204]ms
+2019-07-10 08:55:00.915 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 08:55:01.006 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 08:55:01.096 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 08:55:01.185 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[88]ms
+2019-07-10 08:55:01.280 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[94]ms
+2019-07-10 08:55:01.369 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 08:55:01.459 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 08:55:01.551 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[92]ms
+2019-07-10 08:55:01.654 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[103]ms
+2019-07-10 08:55:01.829 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 08:55:01.922 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 08:55:02.008 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[86]ms
+2019-07-10 08:55:02.107 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[99]ms
+2019-07-10 08:55:02.211 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[104]ms
+2019-07-10 08:55:02.308 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[97]ms
+2019-07-10 08:55:02.398 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 08:55:02.489 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 08:55:02.580 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 08:55:02.701 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[121]ms
+2019-07-10 08:55:02.794 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[92]ms
+2019-07-10 08:55:02.885 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 08:55:02.974 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[88]ms
+2019-07-10 08:55:03.073 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[98]ms
+2019-07-10 08:55:03.158 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[84]ms
+2019-07-10 08:55:03.243 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[85]ms
+2019-07-10 08:55:03.337 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[94]ms
+2019-07-10 08:55:03.425 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[87]ms
+2019-07-10 08:55:03.518 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[92]ms
+2019-07-10 08:55:03.604 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[86]ms
+2019-07-10 08:55:03.694 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 08:55:03.784 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 08:55:03.874 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 08:55:03.963 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 08:55:04.069 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[105]ms
+2019-07-10 08:55:04.163 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 08:55:04.257 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 08:55:04.344 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[86]ms
+2019-07-10 08:55:04.435 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 08:55:04.525 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 08:55:04.612 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[87]ms
+2019-07-10 08:55:04.703 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 08:55:04.870 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 08:55:04.964 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 08:55:05.065 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 08:55:05.157 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[92]ms
+2019-07-10 08:55:05.256 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[98]ms
+2019-07-10 08:55:05.369 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用总线错误报文输出接口cost[84]ms
+2019-07-10 08:56:50.843 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-10 09:00:01.325 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:00:01.425 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:01.525 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:01.616 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 09:00:01.716 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:01.827 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[111]ms
+2019-07-10 09:00:01.927 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:02.035 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[108]ms
+2019-07-10 09:00:02.135 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:02.235 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:02.357 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[122]ms
+2019-07-10 09:00:02.456 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[99]ms
+2019-07-10 09:00:02.556 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:02.666 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:02.778 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[112]ms
+2019-07-10 09:00:02.876 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[98]ms
+2019-07-10 09:00:02.994 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[118]ms
+2019-07-10 09:00:03.124 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[130]ms
+2019-07-10 09:00:03.285 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[161]ms
+2019-07-10 09:00:03.405 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:00:03.505 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:03.606 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:00:03.705 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[99]ms
+2019-07-10 09:00:03.815 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:00:03.915 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:04.017 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[102]ms
+2019-07-10 09:00:04.166 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[149]ms
+2019-07-10 09:00:04.306 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[140]ms
+2019-07-10 09:00:04.416 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:00:04.526 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:00:04.643 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[117]ms
+2019-07-10 09:00:04.763 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:00:04.863 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:04.986 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[123]ms
+2019-07-10 09:00:05.114 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[128]ms
+2019-07-10 09:00:05.214 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:05.303 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 09:00:05.423 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:00:05.523 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:05.624 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:00:05.724 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:00:05.834 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:00:06.075 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:00:06.185 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:00:06.283 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[98]ms
+2019-07-10 09:00:06.403 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:00:06.523 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:00:07.444 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用总线错误报文输出接口cost[881]ms
+2019-07-10 09:01:50.922 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-10 09:02:20.859 [http-nio-8081-exec-2] INFO  [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-10 09:02:20.860 [http-nio-8081-exec-2] INFO  DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-10 09:02:20.894 [http-nio-8081-exec-2] INFO  DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2019-07-10 09:02:21.161 [http-nio-8081-exec-1] INFO  MdgHrZuserServiceImpl -  enter MdgHrZuserServiceImpl.getById(lixin204)
+2019-07-10 09:05:00.203 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用总线错误报文输出接口cost[80]ms
+2019-07-10 09:05:01.263 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[130]ms
+2019-07-10 09:05:01.353 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:01.443 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:01.530 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[87]ms
+2019-07-10 09:05:01.611 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[81]ms
+2019-07-10 09:05:01.703 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[92]ms
+2019-07-10 09:05:01.783 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:01.863 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:01.963 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:05:02.063 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:05:02.143 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:02.235 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[92]ms
+2019-07-10 09:05:02.315 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:02.395 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:02.487 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[92]ms
+2019-07-10 09:05:02.586 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[99]ms
+2019-07-10 09:05:02.666 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:02.756 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:02.846 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:02.946 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:05:03.036 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:03.125 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 09:05:03.215 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:03.307 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[92]ms
+2019-07-10 09:05:03.403 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[96]ms
+2019-07-10 09:05:03.493 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:03.594 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:05:03.684 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:03.774 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:03.864 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:03.963 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[99]ms
+2019-07-10 09:05:04.054 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 09:05:04.134 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:04.224 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:04.324 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:05:04.414 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:04.534 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:05:04.634 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:05:04.714 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:04.804 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:04.884 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:04.964 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:05.144 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:05.244 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:05:05.334 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:05:05.414 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:05:05.504 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:06:51.035 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-10 09:10:01.037 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:01.137 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:01.227 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:10:01.318 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 09:10:01.418 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:01.518 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:01.618 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:01.708 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:10:01.808 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:01.918 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:10:02.018 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:02.118 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:02.218 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:02.318 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:02.409 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 09:10:02.496 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[87]ms
+2019-07-10 09:10:02.596 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:02.686 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:10:02.788 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[102]ms
+2019-07-10 09:10:02.877 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 09:10:02.977 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:03.082 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[105]ms
+2019-07-10 09:10:03.182 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:03.273 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 09:10:03.353 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:10:03.453 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:03.544 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 09:10:03.633 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 09:10:03.723 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:10:03.833 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:10:03.933 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:04.033 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:04.123 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:10:04.213 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:10:04.303 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:10:04.393 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:10:04.503 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:10:04.604 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:10:04.704 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:10:04.794 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:10:04.884 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:10:05.014 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[121]ms
+2019-07-10 09:10:05.274 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[170]ms
+2019-07-10 09:10:05.414 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[140]ms
+2019-07-10 09:10:05.565 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[151]ms
+2019-07-10 09:10:05.708 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[143]ms
+2019-07-10 09:10:05.889 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[181]ms
+2019-07-10 09:10:06.035 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用总线错误报文输出接口cost[138]ms
+2019-07-10 09:11:51.145 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-10 09:15:00.322 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用总线错误报文输出接口cost[70]ms
+2019-07-10 09:15:01.133 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[160]ms
+2019-07-10 09:15:01.240 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[107]ms
+2019-07-10 09:15:01.339 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[99]ms
+2019-07-10 09:15:01.436 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[96]ms
+2019-07-10 09:15:01.537 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:15:01.664 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[126]ms
+2019-07-10 09:15:01.761 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[97]ms
+2019-07-10 09:15:01.854 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[92]ms
+2019-07-10 09:15:01.945 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:15:02.040 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[95]ms
+2019-07-10 09:15:02.160 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:15:02.264 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[104]ms
+2019-07-10 09:15:02.354 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:15:02.614 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[260]ms
+2019-07-10 09:15:02.730 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[116]ms
+2019-07-10 09:15:02.824 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[94]ms
+2019-07-10 09:15:02.914 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:15:03.044 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[130]ms
+2019-07-10 09:15:03.145 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 09:15:03.283 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[138]ms
+2019-07-10 09:15:03.383 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:15:03.542 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[159]ms
+2019-07-10 09:15:03.714 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[172]ms
+2019-07-10 09:15:03.804 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:15:03.904 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:15:03.994 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:15:04.097 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[103]ms
+2019-07-10 09:15:04.204 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[107]ms
+2019-07-10 09:15:04.304 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:15:04.403 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[99]ms
+2019-07-10 09:15:04.501 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[98]ms
+2019-07-10 09:15:04.595 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[94]ms
+2019-07-10 09:15:04.681 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[86]ms
+2019-07-10 09:15:04.782 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:15:04.882 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:15:04.995 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[113]ms
+2019-07-10 09:15:05.146 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[150]ms
+2019-07-10 09:15:05.250 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[104]ms
+2019-07-10 09:15:05.343 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 09:15:05.436 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 09:15:05.738 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[302]ms
+2019-07-10 09:15:05.850 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[112]ms
+2019-07-10 09:15:06.159 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[181]ms
+2019-07-10 09:15:06.284 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[124]ms
+2019-07-10 09:15:06.394 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:15:06.499 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[105]ms
+2019-07-10 09:15:06.613 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[114]ms
+2019-07-10 09:16:51.249 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-10 09:20:00.627 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[133]ms
+2019-07-10 09:20:00.730 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[103]ms
+2019-07-10 09:20:00.831 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:20:00.925 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 09:20:01.033 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[108]ms
+2019-07-10 09:20:01.143 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:20:01.249 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[106]ms
+2019-07-10 09:20:01.351 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[102]ms
+2019-07-10 09:20:01.481 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[130]ms
+2019-07-10 09:20:01.601 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:20:01.717 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[116]ms
+2019-07-10 09:20:01.819 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:20:01.919 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:20:02.019 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:20:02.119 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:20:02.198 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[79]ms
+2019-07-10 09:20:02.302 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[104]ms
+2019-07-10 09:20:02.392 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:20:02.543 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[151]ms
+2019-07-10 09:20:02.644 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:20:02.785 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[141]ms
+2019-07-10 09:20:02.904 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[119]ms
+2019-07-10 09:20:03.024 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:20:03.124 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:20:03.214 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:20:03.315 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:20:03.405 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:20:03.596 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[191]ms
+2019-07-10 09:20:03.913 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[317]ms
+2019-07-10 09:20:04.044 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[131]ms
+2019-07-10 09:20:04.144 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:20:04.244 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:20:04.360 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[116]ms
+2019-07-10 09:20:04.654 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[294]ms
+2019-07-10 09:20:04.834 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[180]ms
+2019-07-10 09:20:05.145 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[311]ms
+2019-07-10 09:20:05.271 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[126]ms
+2019-07-10 09:20:05.391 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:20:05.520 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[129]ms
+2019-07-10 09:20:05.670 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[150]ms
+2019-07-10 09:20:05.780 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:20:05.900 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:20:06.270 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[149]ms
+2019-07-10 09:20:06.390 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[120]ms
+2019-07-10 09:20:06.506 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[116]ms
+2019-07-10 09:20:06.686 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[180]ms
+2019-07-10 09:20:06.866 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[180]ms
+2019-07-10 09:20:07.424 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用总线错误报文输出接口cost[197]ms
+2019-07-10 09:21:51.328 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-10 09:25:00.643 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[102]ms
+2019-07-10 09:25:00.733 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:25:00.823 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:25:00.923 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:25:01.017 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[94]ms
+2019-07-10 09:25:01.091 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[74]ms
+2019-07-10 09:25:01.184 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 09:25:01.270 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[86]ms
+2019-07-10 09:25:01.350 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:25:01.447 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[97]ms
+2019-07-10 09:25:01.535 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[87]ms
+2019-07-10 09:25:01.629 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 09:25:01.713 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[84]ms
+2019-07-10 09:25:01.803 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:25:01.877 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[74]ms
+2019-07-10 09:25:01.971 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[84]ms
+2019-07-10 09:25:02.051 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:25:02.139 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[88]ms
+2019-07-10 09:25:02.223 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[84]ms
+2019-07-10 09:25:02.300 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[77]ms
+2019-07-10 09:25:02.387 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[87]ms
+2019-07-10 09:25:02.474 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[87]ms
+2019-07-10 09:25:02.563 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[88]ms
+2019-07-10 09:25:02.656 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 09:25:02.779 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[123]ms
+2019-07-10 09:25:02.872 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 09:25:02.958 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[86]ms
+2019-07-10 09:25:03.043 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[84]ms
+2019-07-10 09:25:03.130 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[86]ms
+2019-07-10 09:25:03.215 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[85]ms
+2019-07-10 09:25:03.297 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[82]ms
+2019-07-10 09:25:03.387 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:25:03.473 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[86]ms
+2019-07-10 09:25:03.561 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[88]ms
+2019-07-10 09:25:03.658 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[97]ms
+2019-07-10 09:25:03.739 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[81]ms
+2019-07-10 09:25:03.823 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[84]ms
+2019-07-10 09:25:03.910 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[86]ms
+2019-07-10 09:25:03.995 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[84]ms
+2019-07-10 09:25:04.079 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[83]ms
+2019-07-10 09:25:04.160 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[81]ms
+2019-07-10 09:25:04.243 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[83]ms
+2019-07-10 09:25:04.379 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[99]ms
+2019-07-10 09:25:04.459 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[80]ms
+2019-07-10 09:25:04.549 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:25:04.639 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:25:04.728 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 09:25:04.810 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用总线错误报文输出接口cost[68]ms
+2019-07-10 09:26:51.407 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-10 09:30:00.311 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用总线错误报文输出接口cost[145]ms
+2019-07-10 09:30:01.796 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[130]ms
+2019-07-10 09:30:01.886 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:30:01.980 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[94]ms
+2019-07-10 09:30:02.066 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[85]ms
+2019-07-10 09:30:02.156 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:30:02.246 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:30:02.346 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:30:02.451 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[105]ms
+2019-07-10 09:30:02.551 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:30:02.656 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[105]ms
+2019-07-10 09:30:02.757 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:30:02.847 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:30:02.982 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[135]ms
+2019-07-10 09:30:03.096 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[114]ms
+2019-07-10 09:30:03.207 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[111]ms
+2019-07-10 09:30:03.317 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[110]ms
+2019-07-10 09:30:03.417 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:30:03.534 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[117]ms
+2019-07-10 09:30:03.635 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:30:03.740 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[105]ms
+2019-07-10 09:30:03.842 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[102]ms
+2019-07-10 09:30:03.934 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[91]ms
+2019-07-10 09:30:04.028 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[94]ms
+2019-07-10 09:30:04.124 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[96]ms
+2019-07-10 09:30:04.215 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[90]ms
+2019-07-10 09:30:04.315 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:30:04.411 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[96]ms
+2019-07-10 09:30:04.528 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[117]ms
+2019-07-10 09:30:04.639 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[111]ms
+2019-07-10 09:30:04.737 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[98]ms
+2019-07-10 09:30:04.831 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[93]ms
+2019-07-10 09:30:04.932 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:30:05.027 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[94]ms
+2019-07-10 09:30:05.129 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[101]ms
+2019-07-10 09:30:05.227 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[98]ms
+2019-07-10 09:30:05.327 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:30:05.416 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 09:30:05.505 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[89]ms
+2019-07-10 09:30:05.602 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[97]ms
+2019-07-10 09:30:05.707 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[105]ms
+2019-07-10 09:30:05.812 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[105]ms
+2019-07-10 09:30:06.048 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[121]ms
+2019-07-10 09:30:06.150 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[102]ms
+2019-07-10 09:30:06.274 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[124]ms
+2019-07-10 09:30:06.374 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[100]ms
+2019-07-10 09:30:06.468 [pool-7-thread-1] INFO  SapFormYfMonitoringServiceImpl - 调用sap查询接口cost[94]ms
+2019-07-10 09:31:51.494 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration

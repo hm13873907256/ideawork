@@ -1,0 +1,31 @@
+2019-07-09 08:54:26.096 [main] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[com.bgy.*.*.dao]' package. Please check your configuration.
+2019-07-09 08:54:26.106 [main] WARN  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'tkMybatisConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-07-09 08:54:35.617 [main] WARN  AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.soaUser
+2019-07-09 08:54:39.690 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 08:54:39.697 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 08:54:41.357 [main] WARN  EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-07-09 08:58:27.784 [http-nio-8081-exec-1] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-09 08:58:27.790 [http-nio-8081-exec-2] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-09 09:08:54.030 [http-nio-8081-exec-3] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-09 09:08:54.339 [http-nio-8081-exec-4] WARN  SapformServiceLoginAop - 未进行元宝单点登录！
+2019-07-09 10:22:07.453 [main] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[com.bgy.*.*.dao]' package. Please check your configuration.
+2019-07-09 10:22:07.457 [main] WARN  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'tkMybatisConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-07-09 10:22:13.817 [main] WARN  AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.soaUser
+2019-07-09 10:22:17.765 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 10:22:17.769 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 10:22:19.165 [main] WARN  EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-07-09 10:43:19.476 [main] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[com.bgy.*.*.dao]' package. Please check your configuration.
+2019-07-09 10:43:19.481 [main] WARN  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'tkMybatisConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-07-09 10:43:25.098 [main] WARN  AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.bgy.ofa.sapformservice.controller.SapformZtCustoCenterController.soaUser
+2019-07-09 10:43:28.551 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 10:43:28.557 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 10:43:29.750 [main] WARN  EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-07-09 15:07:54.967 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+2019-07-09 15:11:29.403 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+2019-07-09 15:11:30.507 [DiscoveryClient-CacheRefreshExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 10.10.179.198:8761 timed out
+2019-07-09 15:11:34.404 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 10.10.179.198:8761 timed out
+2019-07-09 15:11:35.510 [DiscoveryClient-CacheRefreshExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 10.10.179.198:8761 timed out
+2019-07-09 15:11:53.981 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+2019-07-09 15:12:08.993 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+2019-07-09 15:12:10.526 [DiscoveryClient-CacheRefreshExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 10.10.179.198:8761 timed out
+2019-07-09 15:12:14.010 [DiscoveryClient-HeartbeatExecutor-0] WARN  RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 10.10.179.198:8761 timed out

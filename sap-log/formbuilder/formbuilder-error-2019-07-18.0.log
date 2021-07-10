@@ -1,0 +1,3 @@
+[2019-07-18 17:41:58.182 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"c34639bd94254901bb43cf8e96787a4b","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)

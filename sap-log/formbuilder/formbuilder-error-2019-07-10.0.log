@@ -1,0 +1,372 @@
+[2019-07-10 11:11:24.410 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"59d01be84f3e466194e20069c5c8f5da","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:13:33.131 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-3[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"389198469ca246638479132f015c76fb","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:13:37.600 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-4[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"9c93ffd63dd7421f882b4fe2eda7240e","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:13:57.951 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-5[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"921c9147fad44f16b59b2780c95dda22","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:14:03.420 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"c03047e9e59b4ea4b4c8956a1118c752","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:14:07.468 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"bf23f5d044244beea205dfa577cf72ab","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:14:16.129 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"0175f312b3154be6beca4c4fa6eb8db3","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:14:22.707 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-9[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"e6f2fe880c6a47cfb31cd8e832c9a2b9","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:14:29.592 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-10[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"b216533121fb42cd844c6968fe1e26e1","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:15:15.658 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"5e1cd5f683ed4785a468f052eed42d07","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:15:18.427 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-2[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0010","id":"503042835ddf47d0ab4b7c80b14393fd","ip":"127.0.0.1","msg":"数据编号不能篡改"}
+	at com.bgy.common.tools.aop.KTwoApiAop.getHeadIdAndFromId(KTwoApiAop.java:111)
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:15:58.421 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-3[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0010","id":"0b2bd6370e7545f1bb7b276509727a03","ip":"127.0.0.1","msg":"数据编号不能篡改"}
+	at com.bgy.common.tools.aop.KTwoApiAop.getHeadIdAndFromId(KTwoApiAop.java:111)
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:15:58.621 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-4[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0010","id":"9fbcb2cbada0472f94ec473c7d7a8ec7","ip":"127.0.0.1","msg":"数据编号不能篡改"}
+	at com.bgy.common.tools.aop.KTwoApiAop.getHeadIdAndFromId(KTwoApiAop.java:111)
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:15:58.846 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-5[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0010","id":"c955392c3cdb4e8ab7603e99dd5f043c","ip":"127.0.0.1","msg":"数据编号不能篡改"}
+	at com.bgy.common.tools.aop.KTwoApiAop.getHeadIdAndFromId(KTwoApiAop.java:111)
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:16:15.090 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"58f22790bdad49c894acee80817ebed4","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:16:17.717 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0010","id":"7ddfcaf2a2c3481e9d9b88bc7280dbfd","ip":"127.0.0.1","msg":"数据编号不能篡改"}
+	at com.bgy.common.tools.aop.KTwoApiAop.getHeadIdAndFromId(KTwoApiAop.java:111)
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:18:34.963 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-3[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"0ce66dd3572a4a80a842a745414705e6","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:18:45.500 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-4[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"0e7842c682c2417eb80b25ebdb2068f3","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:24:15.513 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"1ebe5db690a7402283dcf02ab778de3c","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:26:22.854 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"ec203b2728684f6f863a40177de9670b","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:27:44.848 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-10[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"7449c14cd1d6437298b5f4be42ca58ce","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:29:45.232 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"1f8d0eac378e47069a5de6d8d68a463a","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:40:28.434 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-2[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"7d226679c7d54c0c9f33b2c22e496640","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 11:40:56.965 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-3[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"828e22664021465fad8af15a84bcdc66","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 14:05:43.046 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"604f867774ab4bde86d1440a2ee967a0","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 14:25:06.994 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"9e4d9794b1514498b8508534fe27e6fd","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 14:43:48.144 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-9[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"d5c907718a464c99873d9b10465fe43b","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 14:51:42.576 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-10[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"c6a9af6cb339474885d0d205141ab845","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 14:51:42.584 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-3[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"ff4bed533b644171910d0b8ec53faa7d","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 14:53:56.044 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-4[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"a65a2589d5424d3f8e58a38434d219d9","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 14:59:07.678 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-5[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"129724a2458443b3a6fe802fc3637fad","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:04:26.111 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-3[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"6107b83b75aa481791dc0d7ded87fe8a","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:12:50.447 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-5[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"b86708260ecf46dbaf3c79a05be61652","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:13:08.801 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"cd346e14c4214342a580698fb04354ec","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:13:39.266 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"b121e4538ae14950921832db47e251d6","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:15:51.621 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"9def60bd2115461eba92367da0d0f513","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:27:37.959 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"b63764008b154bc18786802d7e2709b5","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:27:38.028 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"7a5374d6a28b463e8fc715942b9e6c4a","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:27:38.146 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"59927c1911b048c38c5f08719bcd1b14","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:27:38.146 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-4[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"47ef5c93fd6843019a98ab8b948429ec","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:27:38.146 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-5[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"13abec3722824cc8b690936e0e663cec","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:27:49.709 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"5bd7a6122d204c39be39d2ab808b4e79","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:29:31.891 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"70e62befe083456a89beaba7e60cd092","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:31:18.078 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"0870be8ee901471d8900f10a0f37ac42","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:34:00.455 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"0b991474ef56437f859560e9590ae023","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:34:08.717 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"0f9ed351c1ec446880c63c42226e0917","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:34:13.066 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"e2c55f9b494a44828c5bec5d647a19e5","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:34:15.228 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-4[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"5d934c3f24054bcbaaa8594c61a222bd","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:35:22.872 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-5[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"bab3d5ae32fd446e9fd29719aa614608","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:37:13.667 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-9[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"4e097594c09d45f29b4ae0592c63d9df","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:41:54.197 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"7cdc70e045bb43c489b511afbb70bd81","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:42:58.091 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-2[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"c52401f7ac114394827f1fca07ac56bf","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:49:56.147 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-4[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"53129ad70b7e4ef2b402dddca9c118e7","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:51:53.511 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"51e95d77ef7b4c5a819311cfa3cefa2f","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:52:00.737 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"29536c0ac6494e8994631549c0434447","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:52:12.494 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"e169995344154571aa902db39ee8c458","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:52:22.366 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-10[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"0ad0a4ec8b7b4fdba37966b222fcac92","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:53:58.363 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-9[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"81498b93e2204a01b6ce16134d197d92","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:57:13.006 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-2[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"e1cd55d223a2478bb4af69093b9b3f27","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:58:30.590 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-5[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"d6849a9a001048c4be6982dda8b39037","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 15:58:54.635 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"07cd40a7477a4d8e869612ad0b84e947","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:01:10.708 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"7a06707515d447f691fc82636598f1c0","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:01:10.714 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-10[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"d7a2116bc21c4e9aa95238d48c468970","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:02:33.595 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-4[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"b94d6159ed2a44318395d9ade8e70b94","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:08:10.506 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"2a341cd8dc894f69b9a9de5a76ba4ab7","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:12:11.029 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"1088bae060d54b6a8fb56660fa5cef6f","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:12:12.107 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-9[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"12e18a3a94ef4615af6093283e6da3ec","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:12:12.284 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-3[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"165fd2eb55204ef98681ddb90d129bac","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:12:12.460 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-2[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"94e13a42d82442908493c87588f59ad1","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:13:13.533 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"de25d120547042bd85e6aa6cb029adeb","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:13:15.433 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"46aadf224d34487cbc5036b66422665f","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:13:15.888 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-10[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"3df500b2cfd1485699d3eeac228af1ce","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:13:16.607 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"98a8ef99c8c74749aa0528bb877c35aa","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:13:16.862 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-9[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"788099c61ca349deb4a2bee61ae2834f","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:13:32.342 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-5[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"041e0f4b711c4742aa8eb0804d07f63e","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:15:54.612 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"4d96faddef214aeca5b49b2f178e4dc1","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:16:11.361 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"4a64b30d327845e2b90d49649da9de30","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:20:41.358 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0003","id":"f2771d6e9d214d2285273445a755df81","ip":"127.0.0.1","msg":"非法秘钥"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:73)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:21:52.908 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"322cbb3ac5934d80bb2929b5343f6949","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:21:54.303 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"9ccdd431a38c472ab6a39dc7674b2b2c","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:39:52.118 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"c18d123f052745799405394924226390","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:39:52.123 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-2[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"e83bbdddcd18423e99f5cf98a73d47d0","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:40:29.018 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"ae2681cce1f3470cb7aa9bd4864d947c","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:43:22.138 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"a121ac3e5dc24c429dc5bba0df9b534d","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:45:56.027 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-2[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"7d656b4e5e9f4c32a8edd989b4e94b19","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:46:50.243 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-3[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"76da35eb87bb4bf297545a2d3ec07307","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:48:18.423 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-4[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"9273bd3b98d74ec584b5a90c275f0fba","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:48:46.829 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-5[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"a894426332d04938bbf345b69a8d353e","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:49:12.037 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"13a72dea13cd42e1bf69b9fc5d6a8854","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:50:11.741 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"15b5045234a44388a7fab3c0e7dcb26f","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:51:49.026 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-6[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"f77a2d772b964fe297050081f44f9263","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:293)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:52:06.897 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-7[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"5027e9cb25c24b3c880eedbdd30025da","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:293)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:53:55.548 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-8[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"2175da59ef1e4168931126306dcf0e23","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:293)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 16:54:54.454 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-10[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"6e8212a2ad1a4a7f8e954eb3ec0df380","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:293)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 17:08:55.638 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-10[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"fd9c206da30f440293a738008a15de22","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 17:09:01.736 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"73df6be623694249ac49d2942039df71","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 17:14:19.893 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-3[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"8e2ed372b7d049ee8212a7d8e0a83807","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 17:21:10.998 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-4[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_FDL_007","id":"7bca8af800324fb485d94e65c86b1b1b","ip":"127.0.0.1","msg":"操作IO失败"}
+	at com.bgy.service.formmanager.impl.FormManagerServiceImpl.visitSapWithBasicAuth(FormManagerServiceImpl.java:292)
+	at com.bgy.controller.sys.FormManagerController.visitSapWithBasicAuth(FormManagerController.java:79)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
+[2019-07-10 17:21:46.228 ip_IS_UNDEFINED formbuilder [1;31mERROR[0;39m [33m[0;39m,[32m[0;39m,[34m[0;39m [33mhttp-nio-7002-exec-1[0;39m [32mcom.bgy.common.utils.exception.GlobalExceptionHandler[0;39m {"appName":"sap","code":"SYS_VERI_0002","id":"d321f46518ff4e269c16c1fa30971d46","ip":"127.0.0.1","msg":"秘钥失效，请重新提交"}
+	at com.bgy.common.tools.aop.KTwoApiAop.beforeMethod(KTwoApiAop.java:76)
+	at com.bgy.common.tools.aop.ExampleAop.beforeCheckToken(ExampleAop.java:35)
